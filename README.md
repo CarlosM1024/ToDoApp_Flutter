@@ -27,15 +27,16 @@ Save your tasks locally so you don't lose them when you close the app.
 Minimalist interface focused on usability.
 
 - 🌍 **Cross-Platform Support**
-  Compatible with **Android**, **Windows** and **Web**.
+
+Compatible with **Android**, **Windows** and **Web**.
 
 ---
 
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/Images/ss1.png" width="250" alt="Captura de pantalla 1"/>
   <img src="assets/Images/ss2.png" width="250" alt="Captura de pantalla 2"/>
+  <img src="assets/Images/ss1.png" width="250" alt="Captura de pantalla 1"/>
 </p>
 
 
