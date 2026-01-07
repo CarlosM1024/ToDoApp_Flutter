@@ -34,8 +34,8 @@ Minimalist interface focused on usability.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/Images/ss1.png" width="250"/>
-  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/Images/ss2.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/assets/Images/ss1.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/assets/Images/ss2.png" width="250"/>
 </p>
 
 ---
