@@ -1,30 +1,101 @@
-# 📱 Flutter Mobile Application
+# 📝 To Do App - Flutter
 
-The frontend of the system, designed to provide a smooth user experience for monitoring environmental data.
+A mobile app developed in Flutter to manage your daily tasks quickly and efficiently. Designed with a clean and intuitive interface to improve your productivity.
+
+---
 
 ## ✨ Features
-* **Real-time Sync**: Uses `Firebase Animated List` or `Streams` for instant updates.
-* **Clean UI**: Minimalist design focused on readability.
-* **Global Access**: Since it uses Firebase, you can check your sensor from any network.
+
+- ➕ **Add Tasks**
+
+Easily create new tasks to keep your day organized.
+
+- ✅ **Mark as Completed**
+
+View your progress by marking tasks you've finished.
+
+- 🗑️ **Delete Tasks**
+
+Get rid of tasks you no longer need or that were created by mistake.
+
+- 💾 **Data Persistence** (Optional/Future)
+
+Save your tasks locally so you don't lose them when you close the app.
+
+- 🎨 **Clean and User-Friendly Design**
+
+Minimalist interface focused on usability.
+
+- 🌍 **Cross-Platform Support**
+  Compatible with **Android**, **Windows** and **Web**.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/screenshots/img.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/screenshots/img_1.png" width="250"/>
+</p>
+
+---
 
 ## 🚀 Getting Started
 
+Follow these instructions to get a copy of the project and run it on your local machine.
+
 ### Prerequisites
-* Flutter SDK installed ([Guide](https://docs.flutter.dev/get-started/install)).
-* An Android/iOS emulator or physical device.
 
-### Setup Firebase
-1.  Create a project in the [Firebase Console](https://console.firebase.google.com/).
-2.  Add an Android/iOS app to your Firebase project.
-3.  Download the `google-services.json` (Android) or `GoogleService-Info.plist` (iOS) and place them in the correct directories:
-    * `android/app/`
-    * `ios/Runner/`
+* [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
 
-### Running the App
+* An Android/iOS emulator or a connected physical device.
+
+* A code editor (VS Code, Android Studio, etc.).
+
+### Installation
+
+1. **Clone the repository** :
 ```bash
-# Install dependencies
-flutter pub get
-
-# Run the application
-flutter run
+git clone https://github.com/CarlosM1024/ToDoApp_Flutter.git
 ```
+2. **Navigate to the project directory**:
+```bash
+cd ToDoApp_Flutter
+```
+3. **Install dependencies** :
+```bash
+flutter pub get
+```
+4. **Run the main.dart file** :
+````bash
+flutter run
+````
+---
+## 🛠️ Project Structure
+
+The project is organized to separate logic, UI, and reusable components:
+````grapgql 
+lib/
+├── 📄 main.dart                         # Punto de entrada e inicialización de la aplicación
+└── 📂 app/                      
+    ├── 📄 app.dart                      # Configuración de la pantalla de la aplicación
+    ├── 📂 repository/
+    │   └── 📄 task_repository.dart      # Logica de la persistencia de datos
+    ├── 📂 model/                        
+    │   └── 📄 task.dart                 # Modelo de datos de tareas
+    └── 📂 View/                 
+        ├── 📂 components/
+        │   ├── 📄 shape.dart            # Estetica de imagen shape
+        │   └── 📄 texto.dart            # Estetica de texto
+        ├── 📂 splash/    
+        │   └── 📄 splash_page.dart      # Visualización de la pantalla de inicio   
+        └── 📂 task_list/
+````        └── 📄 task_list_page.dart   # Visualización de la lista de tareas
+
+---
+
+## 👤 Author
+
+**Carlos Antonio Martinez Miranda**
+
+GitHub: [@CarlosM1024](https://github.com/CarlosM1024)
