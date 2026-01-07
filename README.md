@@ -34,8 +34,8 @@ Minimalist interface focused on usability.
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/screenshots/img.png" width="250"/>
-  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/screenshots/img_1.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/Images/ss1.png" width="250"/>
+  <img src="https://raw.githubusercontent.com/CarlosM1024/ToDoApp_Flutter/main/assets/Images/ss2.png" width="250"/>
 </p>
 
 ---
@@ -85,12 +85,12 @@ lib/
     │   └── 📄 task.dart                 # Modelo de datos de tareas
     └── 📂 View/                 
         ├── 📂 components/
-        │   ├── 📄 shape.dart            # Estetica de imagen shape
         │   └── 📄 texto.dart            # Estetica de texto
         ├── 📂 splash/    
         │   └── 📄 splash_page.dart      # Visualización de la pantalla de inicio   
         └── 📂 task_list/
-````        └── 📄 task_list_page.dart   # Visualización de la lista de tareas
+            └── 📄 task_list_page.dart   # Visualización de la lista de tareas
+````
 
 ---
 
